@@ -17,3 +17,20 @@
 - Python basics
 - Learned Git and GitHub
 - The internship repo is live and well structured. 
+
+
+### Day 2
+
+#### Progress Log
+
+- Practiced working with list, set, tuple, dict
+   - Praciced List Comprehensions
+   - Dictionary nesting and lookup
+   - Functions and Modules like math,random, datetime
+   - Learnt try, except, finally in python
+
+- Prime Number felt hardest and factorial was the easiest
+
+- Screenhot of the problem solved : List Sorting and Duplicate Removal
+
+  
