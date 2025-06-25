@@ -34,3 +34,13 @@
 - Screenhot of the problem solved : List Sorting and Duplicate Removal
 
   <img src = "https://github.com/FaizanAhK/quantlake-internship/blob/main/images/Screenshot%202025-06-23%20184704.png">
+
+
+### Day 3
+
+#### Progress Log
+
+##### Dataset Used : Titanic Dataset
+##### Features Explored : Size & Shape of the Dataset, added and dropped columns etc.
+##### 
+
