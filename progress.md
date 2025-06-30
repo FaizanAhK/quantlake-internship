@@ -44,3 +44,11 @@
 ##### Features Explored : Size & Shape of the Dataset, added and dropped columns etc.
 ##### 
 
+
+
+## Day 4 Summary
+
+- Practiced .loc and .iloc for slicing
+- Cleaned missing data with dropna() and fillna()
+- Grouped sales data by Region and Category
+- Merged sample customer-order datasets using different join types
