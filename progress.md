@@ -52,3 +52,29 @@
 - Cleaned missing data with dropna() and fillna()
 - Grouped sales data by Region and Category
 - Merged sample customer-order datasets using different join types
+
+
+## Day 5 - Data Manipulation II
+
+**Dataset Used**: Superstore Dataset (Kaggle)
+
+### Reshaping Methods Practiced:
+- `df.pivot(index, columns, values)` to reshape sales by Region and Category
+- `df.pivot_table()` to calculate average profit per Segment
+- `df.melt()` to convert wide format to long format for Category/Sub-Category
+
+### Transformation Logic Implemented:
+- Used `.apply()` with custom function to classify Profit as High/Medium/Low
+- Flagged rows with discount > 90%
+- Used `.map()` to convert Region to Region Code
+- Replaced "Consumer" with "Retail" in Segment column
+
+### DataFrame Combinations:
+- Concatenated two DataFrames vertically with `ignore_index=True`
+- Combined DataFrames with mismatched columns using `axis=1`
+
+### Challenges & Workarounds:
+- Dropped missing values before applying pivot
+- Ensured consistent column formats before using `map()` and `replace()`
+
+**Final Dashboard**: Pivot table showing Profit by Category and Region
