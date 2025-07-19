@@ -78,3 +78,19 @@
 - Ensured consistent column formats before using `map()` and `replace()`
 
 **Final Dashboard**: Pivot table showing Profit by Category and Region
+
+### Day 6 — Data Visualization Summary
+
+**Charts Learned**: Line Plot, Bar Chart, Histogram, Boxplot, Heatmap
+
+**Visualized Features**:
+- Sales distribution
+- Profit by Region
+- Quantity by Ship Mode
+- Monthly Sales Trends
+
+**Most Polished Chart**: 
+- "Monthly Sales Trend" line plot.
+- Clean labels, good color contrast, high resolution (DPI 300), and strong insight on sales peaks.
+
+✅ All plots saved in GitHub as image files.
