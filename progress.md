@@ -100,3 +100,7 @@
 
 - ✅ DB Used: MySQL (Sakila)
 - ✅ 5 Interesting Queries:
+1. Top 10 rented films by count
+2. Films released after 2005
+3. Revenue grouped by staff_id
+4. 
