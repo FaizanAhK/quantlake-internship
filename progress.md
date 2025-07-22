@@ -106,3 +106,4 @@
 4. Active customers list
 5. Films with 'PG' or 'G' rating
 
+- ✅ Screenshots: 
