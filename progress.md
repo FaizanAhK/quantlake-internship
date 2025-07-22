@@ -94,3 +94,9 @@
 - Clean labels, good color contrast, high resolution (DPI 300), and strong insight on sales peaks.
 
 ✅ All plots saved in GitHub as image files.
+
+
+## Day 7 Progress
+
+- ✅ DB Used: MySQL (Sakila)
+- ✅ 5 Interesting Queries:
