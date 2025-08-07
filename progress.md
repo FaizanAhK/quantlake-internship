@@ -106,4 +106,45 @@
 4. Active customers list
 5. Films with 'PG' or 'G' rating
 
-- ✅ Screenshots: 
+
+# Day 9 — Advanced SQL Analytics & Case-Based Queries
+
+## 📌 Objective
+
+Enhance SQL proficiency by applying advanced querying techniques including multi-table joins, window functions, common table expressions (CTEs), and solving business intelligence scenarios using the Sakila database.
+
+---
+
+## ✅ Tasks Completed
+
+### 1. Multi-table Join Analysis
+- **Customer orders and revenue**: Identified total orders and revenue per customer.
+- **Top 5 spending customers**: Retrieved highest-paying customers along with their country.
+- **Category revenue**: Summarized total revenue generated per product category.
+
+### 2. Window Functions
+- Used `RANK()` and `OVER()` clauses for:
+  - Ranking customer orders by payment amount.
+  - Calculating cumulative monthly sales (running total).
+  - Ranking top 3 products by revenue within each category.
+
+### 3. Common Table Expressions (CTEs)
+- Found customers with **average order value > ₹1000** (simulated using FX rate).
+- Aggregated revenue from the **last 3 months** of available data (static or dynamic date logic based on `MAX(payment_date)`).
+
+### 4. Business Scenario Query
+- Created a **monthly product-wise revenue table**.
+- Identified **products with declining sales trends** over the last 3 months using CTEs and `RANK()`.
+
+---
+
+## 📊 Key Business Insights
+
+- Certain customers (like ID 25, 63) are frequent high spenders and can be prioritized for loyalty programs.
+- The **'Sports'** and **'Sci-Fi'** categories generate the highest revenue, indicating popular content demand.
+- Some films show a clear **declining trend in monthly sales** — candidates for promotion or removal.
+- Monthly sales trend is helpful for planning **inventory allocation** and marketing campaigns.
+
+
+
+
